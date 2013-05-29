@@ -1,0 +1,399 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	width: 950px;
+	margin: 20px auto;
+	height: 520px;
+}
+
+#header{
+	width:950px;
+	height:105px;
+}
+
+h1{
+	color:#039;
+	text-shadow: 0px 0px 5px #000;
+	font-size:40px;
+}
+
+h1:first-letter{
+	font-size:60px	;
+	font-weight:bold;
+}
+
+h2{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:18px;
+	color:#039;
+}
+a:hover {
+	color:#FFF;	
+}
+
+#who{
+	font-family:"Courier New", Courier, monospace;
+	font-size:18px;
+	padding-left: 90px;
+	padding-right:12px;
+	text-decoration:none;
+}
+
+#site_content{
+	text-decoration:none;
+	
+}
+
+#table1{
+	float:none;
+	position:relative;
+}
+
+#nav { 
+	margin-left: auto;
+	margin-right:auto;
+	float: right;
+	padding: 55px 0 20px;
+	display:block;
+} 
+
+ul#nav { 
+float:none;
+}
+
+ul#nav li a {
+float:right;
+font-family: 'News Cycle', sans-serif;
+font-size: 19px;
+padding-left: 60px;
+padding-right:5px;
+text-decoration: none;
+}
+  
+ul.sf-menu li { 
+  display: block;
+  list-style: none;
+  float:left;
+  margin:auto;
+  position:relative;
+  padding-left:20px;
+}
+  
+a {
+	color:#039;
+}
+  
+ul#nav li.selected a, 
+ul#nav li a:hover, 
+ul#nav ul li a:hover, 
+ul#nav ul li a:focus, 
+ul#nav li.selected ul a:hover {
+  color: white;
+}
+
+#nav1 { 
+	margin-left: auto;
+	margin-right:auto;
+	float: right;
+	padding: 70px 0 20px;
+	display:block;
+} 
+
+ul#nav1 { 
+float:none;
+}
+
+ul#nav1 li a {
+float:right;
+font-family: 'News Cycle', sans-serif;
+font-size: 10px;
+padding-left: 60px;
+padding-right:5px;
+text-decoration: none;
+}
+  
+ul.sf-menu1 li { 
+  display: block;
+  list-style: none;
+  float:left;
+  margin:auto;
+  position:relative;
+  padding-left:20px;
+}
+  
+a {
+	color:#039;
+}
+  
+ul#nav1 li.selected a, 
+ul#nav1 li a:hover, 
+ul#nav1 ul li a:hover, 
+ul#nav1 ul li a:focus, 
+ul#nav1 li.selected ul a:hover {
+  color: white;
+}
+
+.form-horizontal{
+	display: inline-block;
+	  *display: inline;
+
+  *zoom: 1;
+  margin:auto;
+  padding-left: 90px;
+padding-right:12px;
+font-size:20px;
+}
+
+.form-horizontal .control-label {
+  float: none;
+  width: 180px;
+  padding-top: 5px;
+  text-align: left;
+}
+
+.form-horizontal .controls {
+  *display: inline-block;
+  *padding-left: 200px;
+	margin-left: 100px;
+
+  *margin-left: 0;
+	text-align: left;
+}
+
+.input-xlarge {
+  width: 270px;
+}
+
+.form-actions {
+  padding: 17px 20px 18px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  *zoom: 1;
+}
+
+.form-actions:before,
+.form-actions:after {
+  display: table;
+  content: "";
+}
+
+.form-actions:after {
+  clear: both;
+}
+
+.clear {
+	width: 100%;
+	height:1%;
+	clear: both;
+	zoom: 1;
+}
+
+.form-horizontal .form-actions {
+	padding-left: 260px;
+}
+
+.form-actions:after {
+  clear: both;
+}
+
+#form{
+	float:none;
+	padding-left:90px;
+	padding-right:12px;
+}
+
+/***************************************************************************************************************
+FOTER
+***************************************************************************************************************/
+
+#footer {
+
+	width:100%;
+
+	height:auto;
+
+	margin:40px auto 60px;
+
+	font-size: 13px;
+
+	float:left;
+
+	background: white;
+
+}
+
+#left_content {
+
+	width:960px;
+
+	margin:0 auto;
+
+	background: #fff;
+}
+
+.seccion-footer {
+
+	width:310px;
+
+	height:280px;
+
+	float:left;
+
+	margin:20px 0px;
+
+}
+
+.contenido-seccion-footer {
+
+	width:210px;
+
+	float:left;
+
+}
+
+h5 {
+
+	font-size:23px;
+
+	text-align:center;
+
+}
+
+.sociales-footer {
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.negrita-footer {
+
+	font-size:15px;
+
+	color: #3E3D40;
+
+	font-family: 'profileOTbold';
+
+	}
+
+
+
+.seccion-footer ul{
+
+	padding: 20px;
+
+	}
+
+
+
+.seccion-footer ul li{
+
+	margin: 0 0 18px;
+
+	}
+
+
+
+.seccion-footer ul li a {
+
+	text-transform: uppercase;
+
+	color: black;
+
+	}
+
+
+
+.seccion-footer ul li a:hover{
+
+	text-decoration: underline;
+
+	}
+
+	
+
+p.fecha-footer {
+
+	margin:0px 0px;
+
+	text-decoration: underline;
+
+}
+
+
+
+.imagen-footer {
+
+	float: left;
+
+	margin-right: 10px;
+
+	}
+	
+.separadorchico {
+	height:10px;
+	width: 100%;
+	clear: both;
+}
+
+
+#footer .info {
+
+    background: url("images/logo-paula-footer.jpeg") no-repeat scroll 50px 5px white;
+
+    color: #58585A;
+
+    font-family: 'ProfileOTLight';
+
+    font-size: 12px;
+
+    margin: 40px auto 0;
+
+    padding: 0 35px 30px;
+
+    text-align: center;
+
+    width: 550px;
+
+    }
+
+#footer .info a {
+
+	text-decoration: none;
+
+	color: #58585A;
+
+	}
+
+#footer .info a:hover {
+
+	text-decoration: underline;
+
+	}
+
+#footer .info p {
+
+	font-size:13px;
+
+	}
+
+
+
+#twitter_div {
+
+	margin-left: 10px;
+
+	}
+
+.footer-info {
+
+	font-size:13px;
+
+	}
+
+#twtr-widget-1 .twtr-bd, #twtr-widget-1 .twtr-timeline i a, #twtr-widget-1 .twtr-bd p {font-size: 15px;}
+
+.footer-info p {
+
+	font-size:13px;
+
+	}
